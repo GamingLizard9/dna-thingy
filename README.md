@@ -4,3 +4,10 @@ Ok so when this project is done you will give it some DNA and it gives you trans
 but I suck at JS so it'll be a while
 
 If there are any inaccuracies (which is probable) please let me know!
+
+## Progress
+* Transcribing: Done
+* Translation: Done
+* User-inputted values: Nope
+* GUI: Nope
+* Live: Nope
