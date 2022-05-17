@@ -31,7 +31,7 @@ function transcribe(dna) {
         }
 
     }
-    return(rna);
+    document.getElementById("rna-out").innerHTML = rna;
 }
 
 //Function that converts RNA strings into amino acids
@@ -53,6 +53,3 @@ function translate(rna) {
     }
     return(output);
 }
-
-//Run the translation function with a test value
-console.log(translate("aaacccggguuu"))
