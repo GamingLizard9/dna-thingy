@@ -4,7 +4,7 @@ const codonTable = {
     "aga": "Arg","agc": "Ser","agg": "Arg","agu": "Ser","aua": "Ile","auc": "Ile","aug": "Met","auu": "Ile",
     "caa": "Gln","cac": "His","cag": "Gln","cau": "His","cca": "Pro","ccc": "Pro","ccg": "Pro","ccu": "Pro",
     "cga": "Arg","cgc": "Arg","cgg": "Arg","cgu": "Arg","cua": "Leu","cuc": "Leu","cug": "Leu","cuu": "Leu",
-    "gaa": "Glu","gac": "Gsp","gag": "Glu","gau": "Gsp","gca": "Ala","gcc": "Ala","gcg": "Ala","gcu": "Ala",
+    "gaa": "Glu","gac": "Asp","gag": "Glu","gau": "Asp","gca": "Ala","gcc": "Ala","gcg": "Ala","gcu": "Ala",
     "gga": "Gly","ggc": "Gly","ggg": "Gly","ggu": "Gly","gua": "Val","guc": "Val","gug": "Val","guu": "Val",
     "uaa": "Stop","uac":"Tyr","uag": "Stop","uau":"Tyr","uca": "Ser","ucc": "Ser","ucg": "Ser","ucu": "Ser",
     "uga": "Stop","ugc":"Cys","ugg": "Trp","ugu": "Cys","uua": "Leu","uuc": "Phe","uug": "Leu","uuu": "Phe"
