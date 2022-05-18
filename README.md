@@ -8,6 +8,6 @@ If there are any inaccuracies (which is probable) please let me know!
 ## Progress
 * Transcribing: Done
 * Translation: Done
-* User-inputted values: 30%
-* GUI: 10%
+* User-inputted values: Done
+* GUI: 20%
 * Live: Nope
