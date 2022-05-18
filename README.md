@@ -5,6 +5,7 @@ but I suck at JS so it'll be a while
 
 If there are any inaccuracies (which is probable) please let me know!
 
+IMPORTANT NOTE: So I think it's broken, I'll remove this when fixed.
 ## Progress
 * Transcribing: Done
 * Translation: Done
