@@ -9,8 +9,9 @@
         <form>
             <label for="dna">DNA: </label>
             <input type="text" id="dna" name="dna">
-            <input type="button" id="rna-button" onclick="transcribe(document.getElementById('dna').value);" value="Convert to RNA"></button>
-            <p id="rna-out">Output</p>
+            <input type="button" id="rna-button" onclick="convert(document.getElementById('dna').value);" value="Convert"></button>
+            <p id="rna-out">RNA:</p>
+            <p id="amino-out">Amino Acids: </p>
         </form>
     </body>
 </html>

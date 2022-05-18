@@ -4,7 +4,7 @@ const codonTable = {
     "aga": "Arg","agc": "Ser","agg": "Arg","agu": "Ser","aua": "Ile","auc": "Ile","aug": "Met","auu": "Ile",
     "caa": "Gln","cac": "His","cag": "Gln","cau": "His","cca": "Pro","ccc": "Pro","ccg": "Pro","ccu": "Pro",
     "cga": "Arg","cgc": "Arg","cgg": "Arg","cgu": "Arg","cua": "Leu","cuc": "Leu","cug": "Leu","cuu": "Leu",
-    "gaa": "Glu","gac": "Gsp","gag": "Glu","gau": "Gsp","gca": "Ala","gcc": "Ala","gcg": "Ala","gct": "Ala",
+    "gaa": "Glu","gac": "Gsp","gag": "Glu","gau": "Gsp","gca": "Ala","gcc": "Ala","gcg": "Ala","gcu": "Ala",
     "gga": "Gly","ggc": "Gly","ggg": "Gly","ggu": "Gly","gua": "Val","guc": "Val","gug": "Val","guu": "Val",
     "uaa": "Stop","uac":"Tyr","uag": "Stop","uau":"Tyr","uca": "Ser","ucc": "Ser","ucg": "Ser","ucu": "Ser",
     "uga": "Stop","ugc":"Cys","ugg": "Trp","ugu": "Cys","uua": "Leu","uuc": "Phe","uug": "Leu","uuu": "Phe"
@@ -31,7 +31,7 @@ function transcribe(dna) {
         }
 
     }
-    document.getElementById("rna-out").innerHTML = rna;
+    return(rna);
 }
 
 //Function that converts RNA strings into amino acids
@@ -45,6 +45,7 @@ function translate(rna) {
         for(let j = 0; j < 3; j += 1) {
             currentCodon += rna.charAt(i+j)
         }
+        console.log(currentCodon)
         output += codonTable[currentCodon];
         
         if(i != rna.length - 3) {
@@ -52,4 +53,11 @@ function translate(rna) {
         }
     }
     return(output);
+}
+
+function convert(value) {
+    var output1 = transcribe(value);
+    document.getElementById("rna-out").innerHTML = "RNA: " + output1;
+    var output2 = translate(output1);
+    document.getElementById("amino-out").innerHTML = "Amino Acids: " + output2;
 }
