@@ -9,5 +9,5 @@ If there are any inaccuracies (which is probable) please let me know!
 * Transcribing: Done
 * Translation: Done
 * User-inputted values: Done
-* GUI: 20%
+* GUI: 40% (feature-complete, no CSS)
 * Live: Nope
