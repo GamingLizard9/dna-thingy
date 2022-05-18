@@ -1,14 +1,11 @@
 # dna-thingy
-Ok so when this project is done you will give it some DNA and it gives you transcribed and translated versions and it will be on my website
-
-but I suck at JS so it'll be a while
+Ok so this project. you will give it some DNA and it gives you transcribed and translated versions and it is on my website
 
 If there are any inaccuracies (which is probable) please let me know!
 
-IMPORTANT NOTE: So I think it's broken, I'll remove this when fixed.
 ## Progress
 * Transcribing: Done
 * Translation: Done
 * User-inputted values: Done
-* GUI: 40% (feature-complete, no CSS)
-* Live: Nope
+* GUI: Done
+* Live: Done
