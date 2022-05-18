@@ -57,7 +57,7 @@ function translate(rna) {
 
 function convert(value) {
     var output1 = transcribe(value);
-    document.getElementById("rna-out").innerHTML = "RNA: " + output1;
+    document.getElementById("rna-out").innerHTML = output1;
     var output2 = translate(output1);
-    document.getElementById("amino-out").innerHTML = "Amino Acids: " + output2;
+    document.getElementById("amino-out").innerHTML = output2;
 }
